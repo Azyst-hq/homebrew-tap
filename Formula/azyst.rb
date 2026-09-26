@@ -1,25 +1,25 @@
 class Azyst < Formula
   desc "Fast, focused home base for communication and work"
   homepage "https://azyst.com"
-  version "0.0.2"
+  version "0.0.3"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/azyst-hq/cli/releases/download/v0.0.2/azyst-darwin-arm64.tar.gz"
-      sha256 "d945d07b86962d70ee99a3f57d8d7e0de7eaeaf3e29914ac9ee97d7f35c9d587"
+      url "https://github.com/azyst-hq/cli/releases/download/v0.0.3/azyst-darwin-arm64.tar.gz"
+      sha256 "7281c824ef8ca52a85248a9abc98d86fc647f59db24bc0245a24d3967e478095"
     else
-      url "https://github.com/azyst-hq/cli/releases/download/v0.0.2/azyst-darwin-x64.tar.gz"
-      sha256 "9f06effcc172efb37fb99952e9f5700318234a3aa05344791503589bcb89f89d"
+      url "https://github.com/azyst-hq/cli/releases/download/v0.0.3/azyst-darwin-x64.tar.gz"
+      sha256 "2d6162f52249ff37f821f47c02b274482143e1f38882710d412ef8fa7ad230e5"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/azyst-hq/cli/releases/download/v0.0.2/azyst-linux-arm64.tar.gz"
-      sha256 "e942540cdccb33da177da4f9129deb69d399fb97f69b853d34709bad4aeb7218"
+      url "https://github.com/azyst-hq/cli/releases/download/v0.0.3/azyst-linux-arm64.tar.gz"
+      sha256 "4011fef24a7651255446d2e41d8888c7a72e9b69c4d55ebd1854d3a049e43885"
     else
-      url "https://github.com/azyst-hq/cli/releases/download/v0.0.2/azyst-linux-x64.tar.gz"
-      sha256 "086552fa8e711e06499b60ef69375645155d057bb038bf037162d3b71353c031"
+      url "https://github.com/azyst-hq/cli/releases/download/v0.0.3/azyst-linux-x64.tar.gz"
+      sha256 "6d549ea233f994945015e0dfba5e41467e2598d174e7c3fb687ecefa5ef2b0e7"
     end
   end
 
